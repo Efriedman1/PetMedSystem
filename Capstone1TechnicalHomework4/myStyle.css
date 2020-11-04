@@ -1,0 +1,94 @@
+﻿body {
+}
+
+.dotR {
+    height: 25px;
+    width: 25px;
+    background-color: #e74c3c;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dotG {
+    height: 25px;
+    width: 25px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dotY {
+    height: 25px;
+    width: 25px;
+    background-color: #f1c40f;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/*form styles*/
+
+#msform {
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+    min-height: 500px;
+}
+
+    #msform fieldset {
+        background: white;
+        border: 0 none;
+        border-radius: 3px;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+        padding: 20px 30px;
+        box-sizing: border-box;
+        width: 80%;
+        margin: 10%;
+        margin-top: 0;
+        /*stacking fieldsets above each other*/
+        position: relative;
+    }
+
+        /*Hide all except first fieldset*/
+
+        #msform fieldset:not(:first-of-type) {
+            display: none;
+        }
+
+    /*inputs*/
+
+    #msform input, #msform textarea {
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        font-family: Open Sans;
+        color: #2c3e50;
+        font-size: 13px;
+        outline-color: #39b3a9;
+    }
+
+    /*buttons*/
+
+    #msform .action-button {
+        width: 100px;
+        background: #3ab3a9;
+        font-weight: normal;
+        color: white;
+        border: 0 none;
+        border-radius: 1px;
+        cursor: pointer;
+        padding: 10px 5px;
+        margin: 10px 5px;
+        border-radius: 5px;
+    }
+
+        #msform .action-button.previous {
+            background: white;
+            color: #3ab3a9;
+            border: 1px solid #3ab3a9;
+        }
+
+        #msform .action-button:hover, #msform .action-button:focus {
+            box-shadow: 0 0 0 2px white, 0 0px 8px 1px rgb(168, 168, 168);
+        }
+

@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Capstone1TechnicalHomework4.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="/myStyle.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div style="display:flex;flex-direction:row;width:100%;height:100px;padding:20px;border-bottom:1px solid;border-bottom-color:blue;" class="bg-light">
+                <h1 style="color:blue">Pet Med System</h1>
+                <a href="Default.aspx" style="margin-left:15px;margin-right:15px;" class="btn btn-outline-primary btn-lg"><h3>Default Page</h3></a>
+                <a href="CreateNewPrescription.aspx"class="btn btn-outline-primary btn-lg"style="margin-right:15px;"><h3>Create Prescription</h3></a>
+                <a href="CreateNewPrescription.aspx"class="btn btn-outline-primary btn-lg"><h3>Add Client</h3></a>
+
+            </div>
+             <br/><br/>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
