@@ -92,3 +92,18 @@
             box-shadow: 0 0 0 2px white, 0 0px 8px 1px rgb(168, 168, 168);
         }
 
+
+/* change the brand and text color */
+.navbar .navbar-brand,
+.navbar .navbar-text {
+    color: #2c3e50 !important;
+}
+/* change the link color */
+.navbar-nav .nav-item .nav-link {
+    color: #2c3e50 !important;
+}
+/* change the color of active or hovered links */
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #16a085 !important;
+}
